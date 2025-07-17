@@ -66,7 +66,7 @@ public class Main {
         a = sc.nextInt(); // Number of copies sold
         b = sc.nextInt(); // Cost per copy
         c = sc.nextInt(); // Cost spent per copy
-        int totalRevenue = a * b; 
+        int totalRevenue = a * b;
         int totalCost = (a * c) + 100;
         int profit = totalRevenue - totalCost;
         System.out.println(profit);
