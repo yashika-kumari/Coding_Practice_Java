@@ -66,11 +66,11 @@ public class Main {
         a = sc.nextInt(); // Number of copies sold
         b = sc.nextInt(); // Cost per copy
         c = sc.nextInt(); // Cost spent per copy
-        int totalRevenue = a * b; // Total revenue from selling 'a' copies
-        int totalCost = (a * c) + 100; // Total cost including printing and fixed costs
-        int profit = totalRevenue - totalCost; // Profit calculation
-        System.out.println(profit); // Output the profit
-        sc.close(); // Close the scanner to prevent resource leaks
+        int totalRevenue = a * b; 
+        int totalCost = (a * c) + 100;
+        int profit = totalRevenue - totalCost;
+        System.out.println(profit);
+        sc.close();
 
     }
 }
