@@ -2,8 +2,8 @@ package com.company;
 
 public class NoOfDigits {
     public static void main(String[] args) {
-        int num = 45623;
-        int base = 10;
+        int num = 73;
+        int base = 2;
         System.out.println(digits(num,base));
     }
     public static int digits(int num, int base){
